@@ -1,0 +1,8 @@
+- var gmi = "./img/content/team-image.png"
+mixin teams(worker)
+    .our-teams__card-list
+        img(width="220", src=gmi, alt="teams")
+        h3(class="our-teams__card-title")= worker.h3
+        p(class="our-teams__card-subtitle")= worker.p
+each item in [{h3: "SEMF UCUK", p:"CEO & FOUNDER"}, {h3: "DIK ADALIN", p:"ENGINEERING"}, {h3: "JENG KOL", p:"DESIGNER"}, {h3: "PET ROMAK", p: "MARKETING"}]
+    +teams(item)

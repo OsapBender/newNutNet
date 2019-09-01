@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #00e0d0;
+}
+
+.btn--default{
+  display: block;
+  color: #00e0d0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #00e0d0;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0;
+  margin: 52px auto 0;
+  cursor: pointer;
+}
+
+.button--default:hover {
+  border: 1px solid #00b9a7;
+  color: #00b9a7;
+}
+
+.no-padding {
+  padding: 0 !important;
+}

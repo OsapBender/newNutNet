@@ -1,0 +1,39 @@
+doctype html
+html(lang="en")
+    head
+        link(rel="stylesheet" href="css/main.min.css")
+        link(href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet")
+        meta(charset="utf-8")
+        title= "Главная страница"
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="description" content="")
+        meta(name="keywords" content="")
+        meta(name="author" content="Ivan Chuvashov")
+        script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+
+    body
+        include layouts/header.pug
+
+        include home/home.pug
+
+        include about/about.pug
+
+        include video/video.pug
+
+        include expertise/expertise.pug
+
+        include teams/teams.pug
+
+        include works/works.pug
+
+        include people-say/people-say.pug
+
+        include contact/contact.pug
+
+        include layouts/footer.pug
+
+        include components/review
+
+        script(src="js/main.min.js")

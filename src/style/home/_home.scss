@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 670px;
+  background-size: cover;
+  background-image: url("../img/decoration/background/first-bg1.png");
+  background-repeat: no-repeat;
+
+  hr {
+    width: 50px;
+    margin: 25px auto;
+    border: 1px solid #00e0d0;
+  }
+}
+
+.home__title {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.home__subtitle {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 0 40px;
+}

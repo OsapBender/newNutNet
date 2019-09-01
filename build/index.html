@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Ivan Chuvashov">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-lg-5"><img class="main-header__logo" src="./img/content/logo.png" alt="logo"></div>
+          <div class="col col-lg-7">
+            <button class="main-header__menu-btn btn btn--desktop-hidden" type="button" aria-label="btn-burger"><span></span></button>
+            <div class="main-header__overlay overlay overlay--hidden"></div>
+            <ul class="main-header__list-links list-links list-links--m-s-hidden">
+              <li class="main-header__list-item"><a class="main-header__link" href="#">home</a></li>
+              <li class="main-header__list-item"><a class="main-header__link" href="#about">about</a></li>
+              <li class="main-header__list-item"><a class="main-header__link" href="#expertise">expertise</a></li>
+              <li class="main-header__list-item"><a class="main-header__link" href="#teams">teams</a></li>
+              <li class="main-header__list-item"><a class="main-header__link" href="#works">works</a></li>
+              <li class="main-header__list-item"><a class="main-header__link" href="#people">people say</a></li>
+              <li class="main-header__list-item"><a class="main-header__link" href="#contact">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <h2 class="home__title">we are awesome creative agency</h2>
+            <hr>
+            <p class="home__subtitle">
+              This is Photoshop`s version of Lorem Ipsum. Proin gravida nibh vel velit autctor aliquet.
+              Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+            </p>
+            <button class="home__btn btn btn--default" type="button">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="aboutUs" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5"><img src="./img/content/big-logo.png" alt="big-logo"></div>
+          <div class="col-lg">
+            <h2 class="aboutUs__title">OUR STORY</h2>
+            <p class="aboutUs__subtitle">
+              This is Photoshop`s version of Lorem Ipsum. Proin gravida
+              niph vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+              auctor, nisi elit consequat ipsum, nec sagitis sem nibh id elit.
+              Duis sed odio sit amet nibh vulpudate cursus.
+            </p>
+            <p class="aboutUs__subtitle">
+              Morbi accumsanipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+              Sed non mauris vitae erat consequatauctor eu in elit. Class aptent taditi sociosqu
+              ad litora torquent per cunubia nostra per inceptos himeanaeos.
+            </p>
+            <button class="aboutUs__btn btn btn--default" type="button">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <button class="video__player" type="button" data-toggle="modal" data-target=".bd-example-modal"><img src="./img/content/play.png" alt="play"></button>
+            <p class="video__subtitle">watch our story</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="video-modal__content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KvUgaHTNit4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="competence" id="expertise">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2 class="competence__title">expertise</h2>
+            <p class="competence__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col-lg-4 border-bottom border-right">
+            <div class="competence__computer-icon"></div>
+            <h3>web design & development</h3><br>
+            <p class="competence__item-description">This is Photoshop`s version of Lorem ipsum. Proin gravida nibgh vel velit auctor aliquet Aenean.</p>
+          </div>
+          <div class="col-lg-4 border-bottom border-right">
+            <div class="competence__brush-icon"></div>
+            <h3>brandimg identity</h3><br>
+            <p class="competence__item-description">This is Photoshop`s version of Lorem ipsum. Proin gravida nibgh vel velit auctor aliquet Aenean.</p>
+          </div>
+          <div class="col-lg-4 border-bottom">
+            <div class="competence__phone-icon"></div>
+            <h3>mobile app</h3><br>
+            <p class="competence__item-description">This is Photoshop`s version of Lorem ipsum. Proin gravida nibgh vel velit auctor aliquet Aenean.</p>
+          </div>
+          <div class="col-lg-4 border-right">
+            <div class="competence__graph-icon"></div>
+            <h3>search engine optimization</h3><br>
+            <p class="competence__item-description">This is Photoshop`s version of Lorem ipsum. Proin gravida nibgh vel velit auctor aliquet Aenean.</p>
+          </div>
+          <div class="col-lg-4 border-right">
+            <div class="competence__tetris-icon"></div>
+            <h3>game development</h3><br>
+            <p class="competence__item-description">This is Photoshop`s version of Lorem ipsum. Proin gravida nibgh vel velit auctor aliquet Aenean.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="competence__heart-icon"></div>
+            <h3>made with love</h3><br>
+            <p class="competence__item-description">This is Photoshop`s version of Lorem ipsum. Proin gravida nibgh vel velit auctor aliquet Aenean.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-teams" id="teams">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2 class="our-teams__title">MEET OUR AMAZING TEAM</h2>
+            <p class="our-teams__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-lg-12"></div>
+                    <div class="our-teams__card-list"><img width="220" src="./img/content/team-image.png" alt="teams">
+                      <h3 class="our-teams__card-title">SEMF UCUK</h3>
+                      <p class="our-teams__card-subtitle">CEO &amp; FOUNDER</p>
+                    </div>
+                    <div class="our-teams__card-list"><img width="220" src="./img/content/team-image.png" alt="teams">
+                      <h3 class="our-teams__card-title">DIK ADALIN</h3>
+                      <p class="our-teams__card-subtitle">ENGINEERING</p>
+                    </div>
+                    <div class="our-teams__card-list"><img width="220" src="./img/content/team-image.png" alt="teams">
+                      <h3 class="our-teams__card-title">JENG KOL</h3>
+                      <p class="our-teams__card-subtitle">DESIGNER</p>
+                    </div>
+                    <div class="our-teams__card-list"><img width="220" src="./img/content/team-image.png" alt="teams">
+                      <h3 class="our-teams__card-title">PET ROMAK</h3>
+                      <p class="our-teams__card-subtitle">MARKETING</p>
+                    </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg"><span class="our-teams__description">Become part of our dream team, let`s join us!</span>
+            <button class="our-teams__btn btn btn--default" type="button">WE ARE HIRING</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-works" id="works">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="our-works__title">our works</h2>
+          </div>
+          <div class="col-lg-4"><a class="our-works__link link" href="#">See All Project in dribbble
+              <div class="link__arrow"></div></a></div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 no-padding">
+            <ul class="our-works__list-examples">
+              <li><img src="img/content/works/works-1.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-2.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-3.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-4.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-5.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-6.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-7.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-8.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-4.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-10.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-11.png" alt="Our Works"></li>
+              <li><img src="img/content/works/works-12.png" alt="Our Works"></li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <button class="our-works__btn btn btn--default" type="button">LOAD MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="people-say" id="people">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="people-say__quotes"></div>
+            <p class="people-say__description">
+              This is Photoshop`s version of Lorem Ipsum. Proin gravida nibh vel velit autctor aliquet.
+              Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+              Nam rec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequatauctor eu in elit.
+              
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-2">
+            <h3 class="people-say__name">JANE GALADRIEL</h3>
+            <p class="people-say__post">CEO TENGKUREP</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg worker">
+            <button class="worker__button" type="button" id="worker-1"><img src="./img/content/workers/worker-1.png" alt="worker"></button>
+            <button class="worker__button" type="button" id="worker-2"><img src="./img/content/workers/worker-2.png" alt="worker"></button>
+            <button class="worker__button" type="button" id="worker-3"><img src="./img/content/workers/worker__active.png" alt="worker"></button>
+            <button class="worker__button" type="button" id="worker-4"><img src="./img/content/workers/worker-4.png" alt="worker"></button>
+            <button class="worker__button" type="button" id="worker-5"><img src="./img/content/workers/worker-5.png" alt="worker"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-contact" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2 class="our-contact__title">give us a good news</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form method="post">
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Subject">
+              <textarea name="msg" cols="30" rows="10" placeholder="Your Message"></textarea>
+              <button class="our-contact__btn btn btn--default" type="button">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4"><img class="main-footer__logo" src="./img/content/logo.png" alt="logo">
+            <p class="main-footer__subtitle">
+              lorem quis bibendum auctor, nise elit
+              consequat ipsum, nec sagittis sem nibh elit.
+              Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
+            </p>
+          </div>
+          <div class="col-lg-4 main-footer__padding">
+            <h2 class="main-footer__title">our studio</h2>
+            <p class="main-footer__subtitle main-footer__address"><span></span>Ruko cucruk, Jl. Radio luar dalem jos
+              No.12 - 13, Kalideres - Jakarta Barat
+              11480 - Indonesia
+            </p>
+            <p class="main-footer__number"><span></span>(+62) 21-2224 3333</p>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="main-footer__title">stay in touch</h2>
+            <div class="main-footer__search-wrapper">
+              <input class="main-footer__search" type="search" placeholder="Subscribe our newsletter">
+              <button class="main-footer__search-btn" type="submit" name="sendMail"><img src="img/decoration/btn.png" alt="send mail"></button>
+            </div>
+            <div class="main-footer__socials"><a class="facebook" href=""></a><a class="twitter" href=""></a><a class="dribble" href=""></a><a class="instagram" href=""></a><a class="googleplus" href=""></a><a class="youtube" href=""></a></div>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center mt-4">
+          <div class="col-lg-4">
+            <ul class="main-footer__help-list">
+              <li><a href="">HELP</a></li>
+              <li><a href="">TERMS & CONDITION</a></li>
+              <li><a href="">PRIVACY</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4"><span class="main-footer__copyright">Copyright &copy; 2015 - Tajem Creative</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal--hidden" id="openModal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <h3 class="modal__title"></h3><a class="modal__close" href="#close" title="Close">×</a>
+          </div>
+          <div class="modal__body">
+            <p class="modal__text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

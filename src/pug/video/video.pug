@@ -1,0 +1,10 @@
+.video
+    .container
+        .row.justify-content-center
+            .col-lg-4
+                button(type="button" data-toggle="modal" class="video__player" data-target=".bd-example-modal")
+                    img(src="./img/content/play.png", alt="play")
+                p(class="video__subtitle") watch our story
+.video-modal(tabindex="-1" role="dialog" aria-hidden="true")
+    .video-modal__content
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/KvUgaHTNit4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

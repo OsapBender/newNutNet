@@ -1,0 +1,42 @@
+.aboutUs {
+  background-color: #ffffff;
+  height: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  .aboutUs__title {
+    color: #413d4b;
+    font-size: 20px;
+  }
+
+  .aboutUs__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #413d4b;
+  }
+
+  .button--default{
+    margin: 20px 0 0 0;
+  }
+
+  @media only screen and (max-width: 991px) {
+    height: 100%;
+
+    .aboutUs__h2 {
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    .button--default{
+      margin: 20px auto 0;
+    }
+
+    img {
+      display: block;
+      width: 20%;
+      margin: 0 auto;
+    }
+  }
+}

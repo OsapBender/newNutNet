@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../node_modules/bootstrap/scss/utilities/_borders";
+@import "normalize/_normalize";
+@import "variables";
+@import "base/_base";
+@import "layouts/header";
+@import "home/_home";
+@import "about/_about";
+@import "video/_video";
+@import "expertise/_expertise";
+@import "teams/_teams";
+@import "works/_works";
+@import "peopleSay/_peopleSay";
+@import "components/review";
+@import "contacts/_contacts";
+@import "layouts/footer";
+

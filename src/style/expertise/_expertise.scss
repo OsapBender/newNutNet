@@ -1,0 +1,91 @@
+.competence {
+  margin: 70px 0;
+  height: 100%;
+  background-color: #ffffff;
+
+  hr {
+    width: 50px;
+    margin: 20px auto 70px;
+    border: 1px solid #c6c5c9;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #413d4b;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .border-right {
+      border-right: 0 !important;
+    }
+
+    .border-bottom {
+      border-bottom: 0 !important;
+    }
+  }
+}
+
+.competence__title {
+  color: #413d4b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.competence__subtitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #413d4b;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.competence__item-description {
+  font-weight: 300;
+  color: #413d4b;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+}
+
+.competence__computer-icon {
+  width: 49px;
+  height: 50px;
+  background: url("../img/decoration/sprites_decor.png") -80px -10px;
+  margin: 25px auto;
+
+}
+.competence__brush-icon {
+  width: 50px;
+  height: 42px;
+  background: url("../img/decoration/sprites_decor.png") -149px -10px;
+  margin: 25px auto;
+}
+.competence__phone-icon {
+  width: 28px;
+  height: 50px;
+  background: url("../img/decoration/sprites_decor.png") -10px -146px;
+  margin: 25px auto;
+}
+.competence__graph-icon {
+  width: 50px;
+  height: 50px;
+  background: url("../img/decoration/sprites_decor.png") -10px -10px;
+  margin: 25px auto;
+}
+.competence__tetris-icon {
+  width: 41px;
+  height: 50px;
+  background: url("../img/decoration/sprites_decor.png") -149px -72px;
+  margin: 25px auto;
+}
+.competence__heart-icon {
+  width: 50px;
+  height: 46px;
+  background: url("../img/decoration/sprites_decor.png") -10px -80px;
+  margin: 25px auto;
+}
